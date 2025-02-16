@@ -1,2 +1,5 @@
 .venv/
 .aider*
+
+# hugo
+public/
