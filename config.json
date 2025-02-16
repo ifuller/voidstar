@@ -1,1 +1,101 @@
-{"title":"voidstar.org","author":{"name":"Ivan Fuller","avatar":"https://micro.blog/ifuller/avatar.jpg","username":"ifuller","activitypub":{"username":"[ACTIVITYPUB_USERNAME]","url":"[ACTIVITYPUB_ACTOR]"}},"baseURL":"https://voidstar.org/","mediaTypes":{"application/json":{"suffixes":["json"]}},"outputFormats":{"RSS":{"baseName":"feed"},"JSON":{"baseName":"feed"},"RSD":{"mediaType":"application/xml","baseName":"rsd","isPlainText":true,"notAlternative":true},"ArchiveJSON":{"mediaType":"application/json","path":"archive","baseName":"index","isPlainText":true,"notAlternative":true},"PhotosJSON":{"mediaType":"application/json","path":"photos","baseName":"index","isPlainText":true,"notAlternative":true},"PodcastXML":{"mediaType":"application/rss+xml","baseName":"podcast","isPlainText":true,"notAlternative":true},"PodcastJSON":{"mediaType":"application/json","baseName":"podcast","isPlainText":true,"notAlternative":true}},"outputs":{"home":["HTML","RSS","JSON","RSD","ArchiveJSON","PhotosJSON","PodcastXML","PodcastJSON"],"page":["HTML"],"section":["HTML"],"taxonomy":["HTML","RSS","JSON"],"term":["HTML","RSS","JSON"]},"taxonomies":{"category":"categories"},"rssLimit":25,"uglyURLs":false,"blackfriday":{"fractions":false},"markup":{"goldmark":{"renderer":{"unsafe":true}}},"enableRobotsTXT":true,"languageCode":"en","paginate":25,"pluralizeListTitles":false,"params":{"description":"Follow <a href=\"https://micro.blog/ifuller\">@ifuller on Micro.blog</a>.","itunes_description":"About Me: I recently retired after 30 years writing software and managing teams. Mostly in Silicon Valley, where I still reside. I loved working with the technologies and the wonderful people I've met along the way. A core part of my career was at Apple (9 years there), and I have the greatest affinity for their products: iPad is my current fixation. My wonderful wife and I have two teen kids and we're nearly empty-nesters. Looking forward to that next phase of our family.","itunes_category":"Society & Culture","itunes_subcategory":"Personal Journals","itunes_author":"Ivan Fuller","itunes_email":"","itunes_cover":"https://micro.blog/ifuller/podcast.png","twitter_username":"","github_username":"","instagram_username":"","site_id":"187005","paginate_home":false,"paginate_categories":false,"paginate_replies":false,"theme_seconds":"1737574405","plugins_css":[],"plugins_js":[],"plugins_html":[],"feeds":{"bookmarks_json":"https://micro.blog/feeds/ifuller/bookmarks/8320a43eb3a574f60525.json"},"has_podcasts":false,"has_newsletters":false,"include_conversation":false}}
+{
+  "title": "voidstar.org",
+  "author": {
+    "name": "Ivan Fuller",
+    "avatar": "https://micro.blog/ifuller/avatar.jpg",
+    "username": "ifuller",
+    "activitypub": {
+      "username": "[ACTIVITYPUB_USERNAME]",
+      "url": "[ACTIVITYPUB_ACTOR]"
+    }
+  },
+  "baseURL": "https://voidstar.org/",
+  "mediaTypes": { "application/json": { "suffixes": ["json"] } },
+  "outputFormats": {
+    "RSS": { "baseName": "feed" },
+    "JSON": { "baseName": "feed" },
+    "RSD": {
+      "mediaType": "application/xml",
+      "baseName": "rsd",
+      "isPlainText": true,
+      "notAlternative": true
+    },
+    "ArchiveJSON": {
+      "mediaType": "application/json",
+      "path": "archive",
+      "baseName": "index",
+      "isPlainText": true,
+      "notAlternative": true
+    },
+    "PhotosJSON": {
+      "mediaType": "application/json",
+      "path": "photos",
+      "baseName": "index",
+      "isPlainText": true,
+      "notAlternative": true
+    },
+    "PodcastXML": {
+      "mediaType": "application/rss+xml",
+      "baseName": "podcast",
+      "isPlainText": true,
+      "notAlternative": true
+    },
+    "PodcastJSON": {
+      "mediaType": "application/json",
+      "baseName": "podcast",
+      "isPlainText": true,
+      "notAlternative": true
+    }
+  },
+  "outputs": {
+    "home": [
+      "HTML",
+      "RSS",
+      "JSON",
+      "RSD",
+      "ArchiveJSON",
+      "PhotosJSON",
+      "PodcastXML",
+      "PodcastJSON"
+    ],
+    "page": ["HTML"],
+    "section": ["HTML"],
+    "taxonomy": ["HTML", "RSS", "JSON"],
+    "term": ["HTML", "RSS", "JSON"]
+  },
+  "taxonomies": { "category": "categories" },
+  "rssLimit": 25,
+  "uglyURLs": false,
+  "blackfriday": { "fractions": false },
+  "markup": { "goldmark": { "renderer": { "unsafe": true } } },
+  "enableRobotsTXT": true,
+  "languageCode": "en",
+  "paginate": 25,
+  "pluralizeListTitles": false,
+  "params": {
+    "description": "Follow <a href=\"https://micro.blog/ifuller\">@ifuller on Micro.blog</a>.",
+    "itunes_description": "About Me: I recently retired after 30 years writing software and managing teams. Mostly in Silicon Valley, where I still reside. I loved working with the technologies and the wonderful people I've met along the way. A core part of my career was at Apple (9 years there), and I have the greatest affinity for their products: iPad is my current fixation. My wonderful wife and I have two teen kids and we're nearly empty-nesters. Looking forward to that next phase of our family.",
+    "itunes_category": "Society & Culture",
+    "itunes_subcategory": "Personal Journals",
+    "itunes_author": "Ivan Fuller",
+    "itunes_email": "",
+    "itunes_cover": "https://micro.blog/ifuller/podcast.png",
+    "twitter_username": "",
+    "github_username": "",
+    "instagram_username": "",
+    "site_id": "187005",
+    "paginate_home": false,
+    "paginate_categories": false,
+    "paginate_replies": false,
+    "theme_seconds": "1737574405",
+    "plugins_css": [],
+    "plugins_js": [],
+    "plugins_html": [],
+    "feeds": {
+      "bookmarks_json": "https://micro.blog/feeds/ifuller/bookmarks/8320a43eb3a574f60525.json"
+    },
+    "has_podcasts": false,
+    "has_newsletters": false,
+    "include_conversation": false
+  }
+}
